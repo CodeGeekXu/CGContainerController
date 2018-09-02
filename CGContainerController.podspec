@@ -39,5 +39,6 @@ A page container similar to TopBuzz home page (一个类似于今日头条首页
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'CGSegmentBar'
+  s.dependency 'Masonry'
   
 end

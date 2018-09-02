@@ -21,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AC27B32C943A5E069CEBB447 /* Pods_CGContainerController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */; };
 		DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AAC5A213B829700B25813 /* ContainerController.m */; };
 		EDEEC0D15CDB811C2DCE99DE /* Pods_CGContainerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */; };
@@ -66,7 +65,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC3AAC59213B829600B25813 /* ContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
 		DC3AAC5A213B829700B25813 /* ContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
 		EC3B7FCF6F50E26C327F7C1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -148,11 +146,10 @@
 			children = (
 				6003F59C195388D20070C39A /* CGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CGAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CGViewController.h */,
-				6003F5A6195388D20070C39A /* CGViewController.m */,
 				DC3AAC59213B829600B25813 /* ContainerController.h */,
 				DC3AAC5A213B829700B25813 /* ContainerController.m */,
+				6003F5A5195388D20070C39A /* CGViewController.h */,
+				6003F5A6195388D20070C39A /* CGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -281,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -344,11 +340,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CGContainerController/CGContainerController.framework",
 				"${BUILT_PRODUCTS_DIR}/CGSegmentBar/CGSegmentBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGContainerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGSegmentBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

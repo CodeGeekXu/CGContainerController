@@ -7,12 +7,20 @@
 //
 
 #import "CGAppDelegate.h"
+#import "ContainerController.h"
 
 @implementation CGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    ContainerController *rootViewControllor = [[ContainerController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = rootViewControllor;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "ContainerController.h"
+#import "CGViewController.h"
 
 @interface ContainerController ()
 
@@ -14,9 +15,32 @@
 
 @implementation ContainerController
 
+- (instancetype)init
+{
+    CGViewController *page1 = [CGViewController new];
+    page1.view.backgroundColor = [UIColor redColor];
+    
+    CGViewController *page2 = [CGViewController new];
+    page2.view.backgroundColor = [UIColor whiteColor];
+    
+    CGViewController *page3 = [CGViewController new];
+    page3.view.backgroundColor = [UIColor greenColor];
+    
+    self = [super initWithTitles:@[@"Page1",@"Page2",@"Page3"] childControllers:@[page1,page2,page3] segmentBarHeight:40];
+    if (self) {
+        self.segmentBar.indicatorColor = [UIColor blackColor];
+//        self.segmentBar.widthStyle = CGSegmentBarWidthStyleDynamic
+        self.segmentBar.selectedTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor greenColor]};
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 100)];
+    headView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    self.headerView = headView;
 }
 
 - (void)didReceiveMemoryWarning {
