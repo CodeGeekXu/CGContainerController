@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AC27B32C943A5E069CEBB447 /* Pods_CGContainerController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */; };
+		DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AAC5A213B829700B25813 /* ContainerController.m */; };
 		EDEEC0D15CDB811C2DCE99DE /* Pods_CGContainerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +43,8 @@
 		2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGContainerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C0163C0625CEAD1165E761 /* Pods-CGContainerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGContainerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		419442FDB7CAF978541EFB37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4EEA76F75E5F173E6286624A /* CGContainerController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CGContainerController.podspec; path = ../CGContainerController.podspec; sourceTree = "<group>"; };
+		419442FDB7CAF978541EFB37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4EEA76F75E5F173E6286624A /* CGContainerController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGContainerController.podspec; path = ../CGContainerController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* CGContainerController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGContainerController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +67,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC3B7FCF6F50E26C327F7C1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC3AAC59213B829600B25813 /* ContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
+		DC3AAC5A213B829700B25813 /* ContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
+		EC3B7FCF6F50E26C327F7C1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CGViewController.h */,
 				6003F5A6195388D20070C39A /* CGViewController.m */,
+				DC3AAC59213B829600B25813 /* ContainerController.h */,
+				DC3AAC5A213B829700B25813 /* ContainerController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -338,10 +343,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CGContainerController/CGContainerController.framework",
+				"${BUILT_PRODUCTS_DIR}/CGSegmentBar/CGSegmentBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGContainerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGSegmentBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,6 +365,7 @@
 				6003F59E195388D20070C39A /* CGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
