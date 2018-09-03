@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A page container similar to TopBuzz home page (一个类似于今日头条首页的页面容器)
+A reusable page container similar to TopBuzz home page (一个类似于今日头条首页的可以复用的页面容器)
                        DESC
 
   s.homepage         = 'https://github.com/CodeGeekXu/CGContainerController'
