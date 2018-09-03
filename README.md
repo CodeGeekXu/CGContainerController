@@ -5,6 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CGContainerController.svg?style=flat)](https://cocoapods.org/pods/CGContainerController)
 [![Platform](https://img.shields.io/cocoapods/p/CGContainerController.svg?style=flat)](https://cocoapods.org/pods/CGContainerController)
 
+## Installation
+
+CGContainerController is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CGContainerController'
+```
+
 ## Demo
 
 ![gif](https://github.com/CodeGeekXu/CGContainerController/blob/master/Example/CGContainerController/CGContainerController.gif)
@@ -45,15 +54,6 @@
 ```
 
 ## Requirements
-
-## Installation
-
-CGContainerController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'CGContainerController'
-```
 
 ## Author
 
