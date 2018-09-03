@@ -8,6 +8,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![gif](https://github.com/CodeGeekXu/CGContainerController/blob/master/Example/CGContainerController/CGContainerController.gif)
 
 ## Usage
 
