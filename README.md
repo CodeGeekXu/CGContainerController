@@ -12,6 +12,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Usage
 
 ```objective-c
+@interface ContainerController : CGContainerController
+
+@end
+
 - (instancetype)init
 {
     CGViewController *page1 = [CGViewController new];
