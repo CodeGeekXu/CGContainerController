@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		AC27B32C943A5E069CEBB447 /* Pods_CGContainerController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */; };
 		DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AAC5A213B829700B25813 /* ContainerController.m */; };
-		DCC9DA1D213CDBB00060989C /* CGContainerController.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCC9DA1C213CDBB00060989C /* CGContainerController.gif */; };
+		DCC9DA1F213CDEFA0060989C /* CGContainerController.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */; };
 		EDEEC0D15CDB811C2DCE99DE /* Pods_CGContainerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC3AAC59213B829600B25813 /* ContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
 		DC3AAC5A213B829700B25813 /* ContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
-		DCC9DA1C213CDBB00060989C /* CGContainerController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CGContainerController.gif; sourceTree = "<group>"; };
+		DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CGContainerController.gif; sourceTree = "<group>"; };
 		EC3B7FCF6F50E26C327F7C1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 		6003F593195388D20070C39A /* Example for CGContainerController */ = {
 			isa = PBXGroup;
 			children = (
-				DCC9DA1C213CDBB00060989C /* CGContainerController.gif */,
+				DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */,
 				6003F59C195388D20070C39A /* CGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CGAppDelegate.m */,
 				DC3AAC59213B829600B25813 /* ContainerController.h */,
@@ -286,7 +286,7 @@
 			files = (
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				DCC9DA1D213CDBB00060989C /* CGContainerController.gif in Resources */,
+				DCC9DA1F213CDEFA0060989C /* CGContainerController.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
