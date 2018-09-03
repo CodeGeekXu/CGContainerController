@@ -27,20 +27,8 @@
     CGViewController *page3 = [CGViewController new];
     page3.view.backgroundColor = [UIColor greenColor];
     
-    CGViewController *page4 = [CGViewController new];
-    page4.view.backgroundColor = [UIColor blueColor];
-    
-    CGViewController *page5 = [CGViewController new];
-    page5.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    
-    CGViewController *page6 = [CGViewController new];
-    page6.view.backgroundColor = [UIColor lightGrayColor];
-    
-    CGViewController *page7 = [CGViewController new];
-    page7.view.backgroundColor = [UIColor purpleColor];
-    
-    self = [super initWithTitles:@[@"Page 1",@"Page 2",@"Page 3",@"Page 4",@"Page 5",@"Page 6",@"Page 7"]
-                childControllers:@[page1,page2,page3,page4,page5,page6,page7]
+    self = [super initWithTitles:@[@"Page 1",@"Page 2",@"Page 3"]
+                childControllers:@[page1,page2,page3]
                 segmentBarHeight:40];
     if (self) {
         self.segmentBar.indicatorColor = [UIColor blueColor];
@@ -54,13 +42,6 @@
     return self;
 }
 
-- (void)setupBanner
-{
-    CGFloat width = self.view.bounds.size.width;
-    UIImageView *bannerView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, width, width/2)];
-    bannerView.image = [UIImage imageNamed:@"banner"];
-    self.headerView = bannerView;
-}
 ```
 
 ## Requirements
